@@ -3,12 +3,12 @@ public:
     bool isIdealPermutation(vector<int>& A) {
 		int n = A.size();
 		for (int i = 0; i < n; i++) {
-            if (Math.abs(A[i] - i) > 1) return false;
+        	    if (abs(A[i] - i) > 1) return false;
 		}
 		return true;
     }
 };
-
+ // 왜이렇게 어려운걸까룡!!!!!!!!!!!! 잘모르겟음
 
 
 
